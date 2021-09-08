@@ -6,7 +6,7 @@ public class MySampleApexClass3 {  // Class definition and body
       myValue = 100; // initialized variable when class is called
       System.debug('myValue variable with no Overaloading'+myValue);
    }
-
+// This is the sample method
    public MySampleApexClass3 (Integer newPrice) { // Overloaded constructor
       myValue = newPrice; // initialized variable when class is called
       System.debug('myValue variable with Overaloading'+myValue);
